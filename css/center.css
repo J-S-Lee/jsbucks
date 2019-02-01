@@ -44,7 +44,7 @@
 }
 
 .js-list {
-  overflow: auto;
+  overflow: scroll;
   justify-content: flex-start;
   color: white;
   font-size: 22px;
