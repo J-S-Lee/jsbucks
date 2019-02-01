@@ -51,6 +51,13 @@ input:active {
 
 button {
   color: white;
+  background: none;
+  border: none;
+  z-index: 0;
+}
+i {
+  color: white;
+  background: none;
 }
 
 ul {
