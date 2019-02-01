@@ -1,0 +1,57 @@
+.center,
+.center .js-form .result__text {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.center .js-charge__form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.center .phone__input,
+.center .count__input,
+.center .phone__btn,
+.center .result__text {
+  animation: fadeIn 1s ease-in-out forwards;
+}
+.center .js-form .result__text {
+  color: white;
+  font-size: 26px;
+}
+
+.center .js-form .result__text span {
+  margin-bottom: 20px;
+}
+
+.center .js-form .result__text span .redText {
+  color: red;
+}
+
+.js-location {
+  position: fixed;
+  bottom: 0;
+  right: 10px;
+}
+.js-location .location__text {
+  color: white;
+}
+
+.js-charge__form .count__input {
+  margin: 0 40% 0 40%;
+}
+
+.js-list {
+  overflow: auto;
+  justify-content: flex-start;
+  color: white;
+  font-size: 22px;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.js-list li {
+  margin-bottom: 20px;
+}
