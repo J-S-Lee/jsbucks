@@ -44,7 +44,7 @@ function handleSubmit(event) {
   const input = form.querySelector('input');
   const value = input.value;
 
-  const orderer = getMember(value)[0];
+  const orderer = getMember(value);
 
   if (orderer.coffee > 0) {
     drinkCoffee(value);
